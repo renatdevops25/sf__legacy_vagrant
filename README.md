@@ -3,4 +3,5 @@
 Vagrant.configure("2") do |config|\
   config.vm.box = "renatdevops25/ub10-psql8-4"\
   config.vm.box_version = "1.0.0"\
+  config.vm.hostname = "ub10-psql8-4"\
 end
